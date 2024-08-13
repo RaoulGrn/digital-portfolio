@@ -1,4 +1,4 @@
-# Digital Portofolio
+# Digital Portofolio - Frontend
 
 ```Welcome to Your Digital Portfolio Management Application! This platform allows digital artists to manage and showcase their best creative work with ease. Whether you're a designer, artist, or digital creator, our platform offers a user-friendly interface to manage and display your portfolio.```
 
