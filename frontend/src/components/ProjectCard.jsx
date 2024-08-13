@@ -18,7 +18,7 @@ const ProjectCard = ({ project, onImageClick }) => (
         onClick={(e) => e.stopPropagation()}
       >
         <ExternalLink size={20} className="mr-2" />
-        Vizitează Proiectul
+        Visit Project
       </a>
     )}
 
@@ -36,7 +36,7 @@ const ProjectCard = ({ project, onImageClick }) => (
           />
           <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-opacity duration-300 flex items-center justify-center">
             <span className="text-white text-lg font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
-              Vezi Imaginea
+              See Image
             </span>
           </div>
         </div>

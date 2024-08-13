@@ -28,7 +28,7 @@ const ProjectThumbnail = ({ project }) => (
         onClick={(e) => e.stopPropagation()}
       >
         <ExternalLink size={12} className="mr-1" />
-        Vizitează
+        Visit
       </a>
     )}
   </div>

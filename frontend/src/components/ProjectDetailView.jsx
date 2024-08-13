@@ -7,6 +7,7 @@ import {
   EyeOff,
   Trash2,
   Edit,
+  ExternalLink,
 } from "lucide-react";
 
 const ProjectDetailView = ({
@@ -100,7 +101,22 @@ const ProjectDetailView = ({
         <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-lg leading-relaxed">
           {project.description}
         </p>
-
+        {project.clientUrl && (
+          <a
+            href={
+              project.clientUrl.startsWith("http")
+                ? project.clientUrl
+                : `https://${project.clientUrl}`
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-teal-400 hover:text-teal-300 transition-colors"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <ExternalLink size={14} className="mr-1" />
+            {project.clientUrl}
+          </a>
+        )}
         <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-2 sm:gap-4">
           <button
             onClick={() => onToggleVisibility(project._id)}
