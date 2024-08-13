@@ -31,7 +31,7 @@ $ npm install
 - Create .env file in root folder and write your credentials for cloudinary, your MONGODB connection string and your Jwt secret like in the picture
 - https://cloudinary.com/ - it's free to make a starter account
   
-<img src="https://github.com/user-attachments/assets/3a02d045-a8d6-43be-9e44-1fdf13d22b9e" width="30%">
+<img src="https://github.com/user-attachments/assets/3a02d045-a8d6-43be-9e44-1fdf13d22b9e" width="50%">
 
 ```bash
 # development
