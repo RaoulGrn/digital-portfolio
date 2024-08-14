@@ -62,7 +62,7 @@ const UserCard = ({ user, searchQuery, onClick }) => {
           )}
           {remainingProjects > 0 && (
             <p className="text-teal-400 font-medium mt-3 text-sm group-hover:text-teal-300 transition-colors duration-300">
-              + încă {remainingProjects} proiect
+              + another {remainingProjects} proiects
               {remainingProjects !== 1 ? "e" : ""}
             </p>
           )}
