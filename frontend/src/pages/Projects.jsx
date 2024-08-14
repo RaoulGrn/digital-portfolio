@@ -123,7 +123,7 @@ function Projects() {
 
   if (loading)
     return (
-      <div className="flex items-center justify-center h-screen text-2xl text-teal-500">
+      <div className="flex items-center justify-center h-screen text-2xl text-gray-200">
         Loading...
       </div>
     );
