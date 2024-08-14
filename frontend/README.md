@@ -14,23 +14,22 @@
 
 ## Key Technologies and Dependencies
 
-- React (v18.3.1): The core library for building the user interface.
+
 - React Router DOM (v6.26.0): For handling routing within the application.
 - Axios (v1.7.3): For making HTTP requests to the backend.
 - React Bootstrap (v2.10.4) and Bootstrap (v5.3.3): For styling and responsive UI components.
 - Tailwind CSS (v3.4.9): A utility-first CSS framework for rapid and flexible styling.
+- PostCSS (v8.4.41) and Autoprefixer (v10.4.20): For processing and optimizing CSS.
 - React Icons (v5.2.1) and Lucide React (v0.427.0): For icons in the user interface.
 - React Infinite Scroll Component (v6.1.0): For implementing infinite scrolling functionality.
 - React Hot Toast (v2.4.1): For notifications and alerts in the application.
+- Tailwind Scrollbar (v3.1.0): A Tailwind extension for customizing scrollbars.
 
 Development Tools
 
+- React (v18.3.1): The core library for building the user interface.
 - Vite (v5.3.4): Fast build tool and development server.
 - ESLint (v8.57.0): For linting and maintaining code quality.
-- PostCSS (v8.4.41) and Autoprefixer (v10.4.20): For processing and optimizing CSS.
-- Tailwind Scrollbar (v3.1.0): A Tailwind extension for customizing scrollbars.
-
-- **Backend**: NestJS - https://github.com/RaoulGrn/digital-portofolio-backend
 
 ## How to run
 
