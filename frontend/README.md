@@ -35,7 +35,7 @@ Development Tools
 
 ```
 git clone
-cd digital-portofolio-frontend
+cd frontend
 npm install
 npm run dev
 ```
