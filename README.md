@@ -4,7 +4,6 @@
   
 ## Key Technologies and Dependencies
 
-- NestJS (v10.0.0): A progressive Node.js framework for building efficient and scalable server-side applications.
 - MongoDB (via Mongoose v8.5.2): A NoSQL database for storing application data.
 - Passport (v0.7.0): Authentication middleware for Node.js.
 - JWT (@nestjs/jwt v10.2.0): JSON Web Token for secure authentication.
@@ -13,6 +12,7 @@
 
 ## Development Tools
 
+- NestJS (v10.0.0): A progressive Node.js framework for building efficient and scalable server-side applications.
 - TypeScript (v5.1.3): Typed superset of JavaScript that compiles to plain JavaScript.
 - ESLint (v8.42.0): Tool for identifying and reporting on patterns in JavaScript/TypeScript.
 - Jest (v29.7.0): JavaScript Testing Framework with a focus on simplicity.
